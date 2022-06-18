@@ -1,18 +1,17 @@
 # Bank-API-nodeJS
 
-Api Bank 
 
-GET All users:
+# GET All users:
 (Method: GET)
 
 https://bank-api-back.herokuapp.com/admin/users
 
-Delete User :
+# Delete User :
 (Method: DELETE)
 
 https://bank-api-back.herokuapp.com/admin/users/*UserID*
 
-Create New User:
+# Create New User:
 (Method: POST)
 
 https://bank-api-back.herokuapp.com/admin/users/ , NewUser
@@ -20,7 +19,7 @@ https://bank-api-back.herokuapp.com/admin/users/ , NewUser
 Example:
 NewUser = {cash: 400, credit: 800}
 
-Withdraw money from the user:
+# Withdraw money from the user:
 (Method: PUT)
 
 https://bank-api-back.herokuapp.com/admin/withdraw ,withdrawDetail
@@ -28,7 +27,7 @@ https://bank-api-back.herokuapp.com/admin/withdraw ,withdrawDetail
 Example: 
 withdrawDetail = {id: '13W3wwwd3', cash: 400}
 
-transfer money from one user to another:
+# transfer money from one user to another:
 (Method: PUT)
 
 https://bank-api-back.herokuapp.com/admin/transfer , transferDetail
@@ -36,7 +35,7 @@ https://bank-api-back.herokuapp.com/admin/transfer , transferDetail
 Example: 
 transferDetail  = {idSend: '13W3wwwd3', idGet: 'e3ref3r34' cash: 400}
 
-deposit cash to a user:
+# deposit cash to a user:
 (Method: PUT)
 
 https://bank-api-back.herokuapp.com/admin/deposit , depositDetail
@@ -44,7 +43,7 @@ https://bank-api-back.herokuapp.com/admin/deposit , depositDetail
 Example: 
 depositDetail  = {id: '13W3wwwd3', cash: 400}
 
-withdraw money from the user:
+# withdraw money from the user:
 (Method: PUT)
 
 https://bank-api-back.herokuapp.com/admin/withdraw , withdrawDetail
@@ -52,7 +51,7 @@ https://bank-api-back.herokuapp.com/admin/withdraw , withdrawDetail
 Example: 
 withdrawDetail  = {id: '13W3wwwd3', cash: 400}
 
-Can update a users credit:
+# Can update a users credit:
 (Method: PUT)
 
 https://bank-api-back.herokuapp.com/admin/credit , creditDetail
