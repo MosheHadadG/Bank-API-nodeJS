@@ -15,7 +15,10 @@ https://bank-api-back.herokuapp.com/admin/users/*UserID*
 Create New User:
 (Method: POST)
 
-https://bank-api-back.herokuapp.com/admin/users/
+https://bank-api-back.herokuapp.com/admin/users/ , NewUser
+
+Example:
+NewUser = {cash: 400, credit: 800}
 
 Withdraw money from the user:
 (Method: PUT)
@@ -56,8 +59,5 @@ https://bank-api-back.herokuapp.com/admin/credit , creditDetail
 
 Example: 
 creditDetail  = {id: '13W3wwwd3', credit: 400}
-
-
-
 
 
